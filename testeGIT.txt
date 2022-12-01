@@ -3,3 +3,18 @@ Comandos do cmd windows
 cls = limpar cmd
 cd example.ex = entra na pasta
 dir = lista todos os arquivos na pasta atual
+
+Comandos GIT
+
+git global user.name = cadastrar user
+git global user.email = cadastrar email
+
+git user.name = ver user
+git user.email = ver email
+
+git status = mostra o status do repositorio
+
+git init = cria um repositorio na pasta aberta
+git add exemplo.py = salva o arquivo especifico
+git add . = salva todos os arquivos na pasta aberta
+git commit exemplo.py -m "comentario de exemplo" = commita o arquivo especificado com um comentario
