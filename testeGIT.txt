@@ -18,3 +18,4 @@ git init = cria um repositorio na pasta aberta
 git add exemplo.py = salva o arquivo especifico
 git add . = salva todos os arquivos na pasta aberta
 git commit exemplo.py -m "comentario de exemplo" = commita o arquivo especificado com um comentario
+git push = "empurrar" os arquivos da branch para o repositorio no github
