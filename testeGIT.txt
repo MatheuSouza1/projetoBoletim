@@ -1,3 +1,5 @@
+Comandos do cmd windows
+
 cls = limpar cmd
 cd example.ex = entra na pasta
 dir = lista todos os arquivos na pasta atual
