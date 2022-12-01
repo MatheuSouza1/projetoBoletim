@@ -18,7 +18,7 @@ from functions import select
 def refreshTable():
     for data in treeView.get_children():
         treeView.delete(data)
-    for array in select():
+    for array in select("SELECT * from tb_boletim"):
         treeView.insert(parent='', index='end', iid=array, text="", values=(array), tag='orow')
     treeView.tag_configure('orow', font=('Arial', 12))
     treeView.grid(column=0, row=1, padx=10, pady=20)

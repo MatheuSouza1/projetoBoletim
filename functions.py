@@ -13,9 +13,8 @@ def criarConexao():
         print(ex)
     return con
 
-def select():
+def select(sql):
     conexao = criarConexao()
-    sql = "SELECT * from tb_boletim"
     c=conexao.cursor()
     c.execute(sql)
     resultado=c.fetchall()
